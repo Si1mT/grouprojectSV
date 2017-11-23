@@ -20,13 +20,10 @@ namespace xd
             {
                 if (result % 2 == 0)
                 {
-                    Console.WriteLine(result + " is Even Value");
-                }
-                else
-                {
-                    Console.WriteLine(result + " is Odd Value");
+                    Console.WriteLine(result + " is an even number");
                 }
             }
+            Console.ReadLine();
         }
     }
 }
