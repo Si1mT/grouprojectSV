@@ -11,14 +11,19 @@ namespace xd
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ülesanne 2");
-            string text = System.IO.File.ReadAllText(@"C:\Users\opilane\Documents\GitHub\grouprojectSV\kttekst.txt");
+            char[] chars = { ' ', ',', '.', ':', };
+            string text = System.IO.File.ReadAllText("C:\\Users\\Siim\\Documents\\GitHub\\grouprojectSV\\kttekst.txt");
+            //var result = text.Split("\n\r".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
 
-            string[] arr1 = new string[] { };
-            for (int i = 0; i < 1; i++)
-            {
+            string[] trimmed = { text };
+            string trimmed2 = trimmed.Trim();
+            string[] text2= { };
+            
 
-            }
+            Console.WriteLine(text2);
+            Console.ReadLine();
+
+
         }
     }
 }
