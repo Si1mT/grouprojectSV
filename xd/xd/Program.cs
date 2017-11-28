@@ -12,17 +12,12 @@ namespace xd
         static void Main(string[] args)
         {
             char[] chars = { ' ', ',', '.', ':', };
-            string text = System.IO.File.ReadAllText("C:\\Users\\Siim\\Documents\\GitHub\\grouprojectSV\\kttekst.txt");
-            //var result = text.Split("\n\r".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            string text = System.IO.File.ReadAllText("C:\\Users\\opilane\\Documents\\GitHub\\grouprojectSV\\kttekst.txt");
+            string[] myarray = text.Split(' ');
+            int numberOfWords = myarray.Count();
+            Console.WriteLine(numberOfWords);
 
-            string[] trimmed = { text };
-            string trimmed2 = trimmed.Trim();
-            string[] text2= { };
-            
-
-            Console.WriteLine(text2);
             Console.ReadLine();
-
 
         }
     }
