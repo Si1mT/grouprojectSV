@@ -17,6 +17,11 @@ namespace xd
             int numberOfWords = myarray.Count();
             Console.WriteLine(numberOfWords);
 
+            foreach (string line in myarray)
+            {
+                if (line)
+            }
+
             Console.ReadLine();
 
         }
