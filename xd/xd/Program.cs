@@ -33,7 +33,6 @@ namespace xd
             string trimmed2 = trimmed.Trim();
             string[] text2= { };
             
-
             Console.WriteLine(text2);
 
             int[] values1 = { 11, 15, 6, 13, 13, 25, 32, 11, 20, 5, 31, 16, 32, 29, 11, 13, 3, 29, 28, 24 };
@@ -43,7 +42,6 @@ namespace xd
             int[] c = new int[] { diff[0], same[0], same[1], diff[1] };
             Console.WriteLine(c);
             Console.ReadLine();
-
 
         }
     }
