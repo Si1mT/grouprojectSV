@@ -26,17 +26,11 @@ namespace xd
             }
             Console.ReadLine();
             //Harjutus2
-            char[] chars = { ' ', ',', '.', ':', };
-           string text = System.IO.File.ReadAllText("C:\\Users\\Siim\\Documents\\GitHub\\grouprojectSV\\kttekst.txt");
-            //var result = text.Split("\n\r".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            string text = System.IO.File.ReadAllText("C:\\Users\\opilane\\Documents\\GitHub\\grouprojectSV\\kttekst.txt");
+            string[] myarray = text.Split(' ');
+            int numberOfWords = myarray.Count();
+            Console.WriteLine(numberOfWords);
 
-            string[] trimmed = { text };
-            string trimmed2 = trimmed.Trim();
-            string[] text2 = { };
-
-
-            Console.WriteLine(text2);
-            Console.ReadLine();
             //Harjutus 3
             int[] values1 = {11, 15, 6, 13, 13, 25, 32, 11, 20, 5, 31, 16, 32, 29, 11, 13, 3, 29, 28, 24};
             int[] values2 = {5, 19, 16, 4, 12, 7, 2, 28, 34, 29, 29, 36, 6, 8, 24, 18, 31, 7, 1, 7};
