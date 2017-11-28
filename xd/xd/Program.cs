@@ -29,7 +29,7 @@ namespace xd
             string text = System.IO.File.ReadAllText("C:\\Users\\opilane\\Documents\\GitHub\\grouprojectSV\\kttekst.txt");
             string[] myarray = text.Split(' ');
             int numberOfWords = myarray.Count();
-            Console.WriteLine(numberOfWords);
+            Console.WriteLine("Tekstis olevate sõnade arv on "+numberOfWords);
 
             //Harjutus 3
             int[] values1 = {11, 15, 6, 13, 13, 25, 32, 11, 20, 5, 31, 16, 32, 29, 11, 13, 3, 29, 28, 24};
